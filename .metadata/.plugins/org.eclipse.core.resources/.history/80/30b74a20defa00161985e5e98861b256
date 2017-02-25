@@ -1,0 +1,10 @@
+package assign2;
+
+public class Webservice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

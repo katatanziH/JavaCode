@@ -1,24 +1,11 @@
-package testingclt;
+package JavaCode.src.testingclt;
 import java.net.*;
 import java.io.*;
 import java.util.*;
 public class Newebserver {
 	public static void main(String[] args) 
     {
-        // read arguments
-        if (args.length!=2) {
-            System.out.println("Usage: java FileServer <port> <wwwhome>");
-            System.exit(-1);
-        }
-        //int port = Integer.parseInt(args[0]);
-        int port = 8888;
-        String wwwhome = args[1];
         
-        // open server socket
-        ServerSocket socket = null; 
-        try {
-            socket = new ServerSocket(port); 
-        } catch (IOException e) {
             System.err.println("Could not start server: " + e);
             System.exit(-1);
         }
